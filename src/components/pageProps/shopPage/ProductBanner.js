@@ -61,10 +61,10 @@ const ProductBanner = ({ itemsPerPageFromBanner }) => {
             id="countries"
             className="w-32 md:w-52 border-[1px] border-gray-200 py-1 px-4 cursor-pointer text-primeColor text-base block dark:placeholder-gray-400 appearance-none focus-within:outline-none focus-visible:border-primeColor"
           >
-            <option value="Бестселерs">Best Sellers</option>
-            <option value="Нове надходження">New Arrival</option>
-            <option value="Особливості">Featured</option>
-            <option value="Остаточна пропозиція">Final Offer</option>
+            <option value="Бестселерs">Топ продажі</option>
+            <option value="Нове надходження">Новинки</option>
+            <option value="Особливості">Особливі</option>
+            <option value="Остаточна пропозиція">Розпродажа</option>
           </select>
           <span className="absolute text-sm right-2 md:right-4 top-2.5">
             <GoTriangleDown />
@@ -87,9 +87,7 @@ const ProductBanner = ({ itemsPerPageFromBanner }) => {
           </span>
         </div>
       </div>
-      {/* =========================================================
-                            Right Part End here
-        ======================================================== */}
+
     </div>
   );
 };

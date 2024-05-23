@@ -14,7 +14,7 @@ const Brand = () => {
   const brands = [
     {
       _id: 900,
-      title: "Pantum",
+      title: "Amd",
     },
     {
       _id: 901,
@@ -22,12 +22,20 @@ const Brand = () => {
     },
     {
       _id: 902,
-      title: "Epson",
+      title: "Intel",
     },
 
     {
       _id: 903,
-      title: "Ricoh",
+      title: "Msi",
+    },
+    {
+      _id: 904,
+      title: "Asus",
+    },
+    {
+      _id: 906,
+      title: "Lenovo",
     },
   ];
 
@@ -41,7 +49,7 @@ const Brand = () => {
         onClick={() => setShowBrands(!showBrands)}
         className="cursor-pointer"
       >
-        <NavTitle title="Покупка за брендом" icons={true} />
+        <NavTitle title="Бренди" icons={true} />
       </div>
       {showBrands && (
         <motion.div

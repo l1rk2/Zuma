@@ -16,19 +16,19 @@ const Category = () => {
   const category = [
     {
       _id: 9006,
-      title: "Imprimante",
+      title: "Ноутбуки",
     },
     {
       _id: 9007,
-      title: "Encre",
+      title: "Процесори",
     },
     {
       _id: 9008,
-      title: "Ruban",
+      title: "Клавіатури",
     },
     {
       _id: 9009,
-      title: "Bac de dechet",
+      title: "Монітори",
     },
   ];
 
@@ -38,7 +38,7 @@ const Category = () => {
 
   return (
     <div className="w-full">
-      <NavTitle title="Shop by Category" icons={true} />
+      <NavTitle title="Категорії" icons={true} />
       <div>
         <ul className="flex flex-col gap-4 text-sm lg:text-base text-[#767676]">
           {category.map((item) => (
