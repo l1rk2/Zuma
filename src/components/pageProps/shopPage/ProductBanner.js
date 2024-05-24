@@ -71,7 +71,7 @@ const ProductBanner = ({ itemsPerPageFromBanner }) => {
           </span>
         </div>
         <div className="flex items-center gap-2 text-[#767676] relative">
-          <label className="block">Show:</label>
+          <label className="block">Показати:</label>
           <select
             onChange={(e) => itemsPerPageFromBanner(+e.target.value)}
             id="countries"
