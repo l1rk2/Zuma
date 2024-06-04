@@ -87,7 +87,7 @@ const Pagination = ({ itemsPerPage }) => {
         />
 
         <p className="text-base font-normal text-lightText">
-          Products from {itemStart} to {Math.min(endOffset, items.length)} of{" "}
+        Продукти від {itemStart} до {Math.min(endOffset, items.length)} всього{" "}
           {items.length}
         </p>
         <button onClick={() => console.log(selectedBrands)}> test</button>

@@ -61,7 +61,39 @@ import IMPRIMANTE_PANTUM_P3300DW from "../images/products/imprimante/IMPRIMANTE_
 import IMPRIMANTE_PANTUM_P2509W from "../images/products/imprimante/IMPRIMANTE_PANTUM_P2509W.webp";
 import IMPRIMANTE_PANTUM_M6559N from "../images/products/imprimante/IMPRIMANTE_PANTUM_M6559N.webp";
 import IMPRIMANTE_PANTUM_P2509 from "../images/products/imprimante/IMPRIMANTE_PANTUM_P2509.webp";
+import AMDRYZEN77700 from "../images/products/imprimante/AMDRYZEN77700.webp";
+import AMDRyzen77800X3D from "../images/products/imprimante/AMDRyzen77800X3D.webp";
+import AMDRyzen58500G from "../images/products/imprimante/AMDRyzen58500G.webp";
+import AMDRyzen97900 from "../images/products/imprimante/AMDRyzen97900.webp";
+import AMDRyzen34300G from "../images/products/imprimante/AMDRyzen34300G.webp";
+import LenovoIdeaPadGaming3 from "../images/products/imprimante/LenovoIdeaPadGaming3.webp";
+import AsusTUFGamingA15FA506NC from "../images/products/imprimante/AsusTUFGamingA15FA506NC.webp";
+import AsusROGStrixG17G713PU from "../images/products/imprimante/AsusROGStrixG17G713PU.webp";
+import MSIModern14C7M from "../images/products/imprimante/MSIModern14C7M.webp";
+import MSIModern15B12MO from "../images/products/imprimante/MSIModern15B12MO.webp";
+import HP255G9 from "../images/products/imprimante/HP255G9.webp";
+import HPVictus15fa1013ua from "../images/products/imprimante/HPVictus15fa1013ua.webp";
+import HP15fc0046ua from "../images/products/imprimante/HP15fc0046ua.webp";
 
+import IntelCorei713700KF from "../images/products/IntelCorei713700KF.webp";
+import HPZBookFirefly14G9 from "../images/products/imprimante/HPZBookFirefly14G9.webp";
+import HP17cn2017ua from "../images/products/imprimante/HP17cn2017ua.webp";
+
+import MSI27PROMP273A from "../images/products/imprimante/MSI27PROMP273A.webp";
+
+import MSICyborg15A13VE from "../images/products/imprimante/MSICyborg15A13VE.webp";
+import HP15fd0058ua from "../images/products/imprimante/HP15fd0058ua.webp";
+import IntelCorei512400F from "../images/products/imprimante/IntelCorei512400F.webp";
+import IntelPentiumGold from "../images/products/imprimante/IntelPentiumGold.webp";
+import IntelCorei913900KS from "../images/products/imprimante/IntelCorei913900KS.webp";
+
+
+import Asus238TUFGaming from "../images/products/imprimante/Asus238TUFGaming.webp";
+import MSI40MAG401QR from "../images/products/imprimante/MSI40MAG401QR.webp";
+import IntelCorei313100 from "../images/products/imprimante/IntelCorei313100.webp";
+import MSI238G244F from "../images/products/imprimante/MSI238G244F.webp";
+
+import MSI24G2412F from "../images/products/imprimante/MSI24G2412F.webp";
 import hp1 from "../images/products/imprimante/hp1.webp";
 import hp2 from "../images/products/imprimante/hp2.webp";
 import hp3 from "../images/products/imprimante/hp3.webp";
@@ -140,7 +172,33 @@ export {
   IMPRIMANTE_PANTUM_P2509W,
   IMPRIMANTE_PANTUM_M6559N,
   IMPRIMANTE_PANTUM_P2509,
-
+  AMDRYZEN77700,
+  AMDRyzen77800X3D,
+  AMDRyzen58500G,
+  AMDRyzen97900,
+  AMDRyzen34300G,
+  LenovoIdeaPadGaming3,
+  AsusTUFGamingA15FA506NC,
+  AsusROGStrixG17G713PU,
+  MSICyborg15A13VE,
+  MSIModern14C7M,
+  MSIModern15B12MO,
+  HP255G9,
+  HPVictus15fa1013ua,
+  HP15fc0046ua,
+  HP17cn2017ua,
+  HPZBookFirefly14G9,
+  HP15fd0058ua,
+  IntelCorei512400F,
+  IntelCorei713700KF,
+  IntelPentiumGold,
+  IntelCorei913900KS,
+  IntelCorei313100,
+  MSI238G244F,
+  MSI24G2412F,
+  MSI27PROMP273A,
+  MSI40MAG401QR,
+  Asus238TUFGaming,
   // imprimante Hp
   hp1,
   hp2,
