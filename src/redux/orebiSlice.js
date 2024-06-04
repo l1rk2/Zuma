@@ -9,7 +9,7 @@ const initialState = {
 };
 
 export const orebiSlice = createSlice({
-  name: "orebi",
+  name: "Zyma",
   initialState,
   reducers: {
     addToCart: (state, action) => {
@@ -22,7 +22,7 @@ export const orebiSlice = createSlice({
         state.products.push(action.payload);
       }
       // Dispatch a success toast
-      toast.success("Product added to cart");
+      toast.success("Товар додано до кошика");
     },
     increaseQuantity: (state, action) => {
       const item = state.products.find(
