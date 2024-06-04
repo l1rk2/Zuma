@@ -90,7 +90,7 @@ const Pagination = ({ itemsPerPage }) => {
         Продукти від {itemStart} до {Math.min(endOffset, items.length)} всього{" "}
           {items.length}
         </p>
-        <button onClick={() => console.log(selectedBrands)}> test</button>
+        <button onClick={() => console.log(selectedBrands)}> </button>
       </div>
     </div>
   );

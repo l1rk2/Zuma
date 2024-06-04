@@ -49,7 +49,7 @@ export const orebiSlice = createSlice({
         (item) => item._id !== action.payload
       );
       // Dispatch a success toast
-      toast.error("Product removed from cart");
+      toast.error("Товар видалено з кошика");
     },
     resetCart: (state) => {
       state.products = [];

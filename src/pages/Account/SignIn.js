@@ -28,16 +28,16 @@ const SignIn = () => {
     e.preventDefault();
 
     if (!email) {
-      setErrEmail("Enter your email");
+      setErrEmail("Введіть свою електронну адресу");
     }
 
     if (!password) {
-      setErrPassword("Create a password");
+      setErrPassword("Створіть пароль");
     }
     // ============== Getting the value ==============
     if (email && password) {
       setSuccessMsg(
-        `Hello dear, Thank you for your attempt. We are processing to validate your access. Till then stay connected and additional assistance will be sent to you by your mail at ${email}`
+        `Привіт, шановний, дякуємо за вашу спробу. Ми працюємо над підтвердженням вашого доступу. До того часу залишайтеся на зв'язку, і додаткова допомога буде надіслана вам на вашу пошту за адресою ${email}`
       );
       setEmail("");
       setPassword("");

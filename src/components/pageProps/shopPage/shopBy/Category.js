@@ -63,7 +63,7 @@ const Category = () => {
               )}
             </li>
           ))}
-          <li onClick={() => console.log(checkedCategorys)}>test</li>
+          <li onClick={() => console.log(checkedCategorys)}></li>
         </ul>
       </div>
     </div>

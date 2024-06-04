@@ -72,36 +72,36 @@ const SignUp = () => {
     e.preventDefault();
     if (checked) {
       if (!clientName) {
-        setErrClientName("Enter your name");
+        setErrClientName("Введіть своє ім'я");
       }
       if (!email) {
-        setErrEmail("Enter your email");
+        setErrEmail("Введіть свою електронну адресу");
       } else {
         if (!EmailValidation(email)) {
-          setErrEmail("Enter a Valid email");
+          setErrEmail("Введіть дійсну електронну адресу");
         }
       }
       if (!phone) {
-        setErrPhone("Enter your phone number");
+        setErrPhone("Введіть свій номер телефону");
       }
       if (!password) {
-        setErrPassword("Create a password");
+        setErrPassword("Створіть пароль");
       } else {
         if (password.length < 6) {
-          setErrPassword("Passwords must be at least 6 characters");
+          setErrPassword("Пароль повинен містити щонайменше 6 символів");
         }
       }
       if (!address) {
-        setErrAddress("Enter your address");
+        setErrAddress("Введіть свою адресу");
       }
       if (!city) {
-        setErrCity("Enter your city name");
+        setErrCity("Введіть назву вашого міста");
       }
       if (!country) {
-        setErrCountry("Enter the country you are residing");
+        setErrCountry("Введіть країну, в якій ви проживаєте");
       }
       if (!zip) {
-        setErrZip("Enter the zip code of your area");
+        setErrZip("Введіть поштовий індекс вашого регіону");
       }
       // ============== Getting the value ==============
       if (
@@ -116,7 +116,7 @@ const SignUp = () => {
         zip
       ) {
         setSuccessMsg(
-          `Hello dear ${clientName}, Welcome you to OREBI Admin panel. We received your Sign up request. We are processing to validate your access. Till then stay connected and additional assistance will be sent to you by your mail at ${email}`
+          `Вітаю ${clientName}, Ласкаво просимо до адмін-панелі Zyma. Ми отримали ваш запит на реєстрацію. Ми обробляємо його, щоб підтвердити ваш доступ. До того часу залишайтеся на зв'язку, і додаткова допомога буде надіслана вам на вашу пошту за адресою ${email}`
         );
         setClientName("");
         setEmail("");
