@@ -7,7 +7,7 @@ const BannerBottom = () => {
     <div className="w-full bg-white border-b-[1px] py-4 border-b-gray-200 px-4">
       <div className="max-w-container mx-auto h-20 flex flex-col md:flex-row justify-between items-center">
         <div className="flex items-center gap-2 w-72 shadow-sm hover:shadow-md duration-300">
-          <span className="font-bold font-titleFont w-6 text-center">
+          <span className="font-bold font-titleFont w-10 text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 -117 679.99892 679"
@@ -40,7 +40,7 @@ const BannerBottom = () => {
           </span>
           <p className="text-lightText text-base">Два роки гарантії</p>
         </div>
-        <div className="flex md:w-auto items-center gap-2 w-72 shadow-sm hover:shadow-md duration-300">
+        <div className="flex md:w-auto items-center gap-5 w-72 shadow-sm hover:shadow-md duration-300">
           <span className="text-5xl text-center w-10 ml-1 text-orange-500">
             <svg
               xmlns="http://www.w3.org/2000/svg"
