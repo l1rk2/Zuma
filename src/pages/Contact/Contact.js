@@ -44,28 +44,28 @@ const Contact = () => {
   const handlePost = (e) => {
     e.preventDefault();
     if (!clientName) {
-      setErrClientName("Enter your Name");
+      setErrClientName("Введіть тут своє ім'я");
     }
     if (!email) {
-      setErrEmail("Enter your Email");
+      setErrEmail("Введіть тут свою пошту");
     } else {
       if (!EmailValidation(email)) {
-        setErrEmail("Enter a Valid Email");
+        setErrEmail("Неправильна пошта");
       }
     }
     if (!messages) {
-      setErrMessages("Enter your Messages");
+      setErrMessages("Ваше повідомлення");
     }
     if (clientName && email && EmailValidation(email) && messages) {
       setSuccessMsg(
-        `Thank you dear ${clientName}, Your messages has been received successfully. Futher details will sent to you by your email at ${email}.`
+        `Дякую ${clientName}, Ваше повідомлення було успішно отримано. Більш детальна інформація буде надіслана на вашу електронну адресу ${email}.`
       );
     }
   };
 
   return (
     <div className="max-w-container mx-auto px-4">
-      <Breadcrumbs title="Contact" prevLocation={prevLocation} />
+      <Breadcrumbs title="Контакти" prevLocation={prevLocation} />
       {successMsg ? (
         <p className="pb-20 w-96 font-medium text-green-500">{successMsg}</p>
       ) : (

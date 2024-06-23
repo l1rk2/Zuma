@@ -66,7 +66,7 @@ const NewArrivals = () => {
             _id="100002"
             img={newArrTwo}
             productName="Процесор Intel Core i7-12700KF 3.6 GHz / 25 MB"
-            price="7.500"
+            price="7500"
             color="Чорний"
             badge={true}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
@@ -77,7 +77,7 @@ const NewArrivals = () => {
             _id="100003"
             img={newArrThree}
             productName="Відеокарта MSI PCI-Ex GeForce RTX 3060 Ventus 2X 12G"
-            price="12.350"
+            price="12350"
             color="Сірий"
             badge={true}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
@@ -88,7 +88,7 @@ const NewArrivals = () => {
             _id="100004"
             img={newArrFour}
             productName="Ноутбук 13.3 Lenovo ThinkPad X13 Gen 3 Intel Core i5-1245U RAM 8GB SSD 1TB"
-            price="30.000"
+            price="30000"
             color="Чорний"
             badge={false}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
